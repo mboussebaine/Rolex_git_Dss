@@ -15,7 +15,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "TUT_VISUAL_AGENTS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -154,7 +155,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Visual Agents",
+  "name": "Visual Agents for mustapha.boussebaine",
+  "projectStatus": "Sandbox",
   "imgPattern": 8,
   "showInitials": false,
   "metrics": {
