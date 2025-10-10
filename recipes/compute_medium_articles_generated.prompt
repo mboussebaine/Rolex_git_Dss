@@ -4,11 +4,18 @@
     "stopSequences": []
   },
   "rawResponseOutputMode": "RAW_WITHOUT_TRACES",
+  "llmId": "openai:AAP_openai:gpt-5",
   "prompt": {
     "guardrailsPipelineSettings": {
       "guardrails": []
     },
-    "promptTemplateInputs": [],
+    "promptTemplateInputs": [
+      {
+        "datasetColumnName": "text",
+        "name": "text",
+        "type": "TEXT"
+      }
+    ],
     "resultValidation": {
       "requiredJSONObjectKeys": [],
       "expectedFormat": "NONE",
@@ -19,6 +26,7 @@
     "chatMessages": {},
     "structuredPromptExamples": [],
     "textPromptTemplateInputs": [],
-    "promptMode": "PROMPT_TEMPLATE_STRUCTURED"
+    "promptMode": "PROMPT_TEMPLATE_STRUCTURED",
+    "structuredPromptPrefix": "summrize"
   }
 }
