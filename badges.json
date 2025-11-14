@@ -1,0 +1,8 @@
+{
+  "typeBadges": {
+    "LLM": [
+      "RECIPE:compute_medium_articles_generated",
+      "RECIPE:compute_test_embedded"
+    ]
+  }
+}
